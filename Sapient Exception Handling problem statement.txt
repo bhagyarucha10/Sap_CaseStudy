@@ -1,0 +1,20 @@
+                Exception Handling
+--------------------------------------------------------------------
+Problem Statement:
+-------------------------------------------------------------------
+Declare a class SampleExceptionDemo with two instance methods.
+
+1)int divMeth(int a)
+This method should divide the number 42 by the number passes as parameter.if division is successful returns the quotient.if division is not success,this method should throw appropriate Exception
+
+2)int arrayAccessMeth(int arr[],int pos)
+This method takes an array and position to access an array from user input in Main method.
+it return the element of the array for the given position.if it is not succesful,then it throws appropriate Exception
+
+In main method
+-----------------------
+Make it menu driven..
+choice 1: should call divMeth passing a value(taken from user input)
+choice 2:should call arrayAccessMeth method 
+take number of elements of array,arrayelements,position of array element to access from user input and invoke the method with appropriate arguments.
+
